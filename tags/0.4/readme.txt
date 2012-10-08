@@ -1,7 +1,14 @@
-WordPress-Hide-Comments
-=======================
+=== Hide Comments Feature ===
+Contributors: lightningspirit
+Tags: plugin, hide, remove, comments, comment, comments, dashboard, feature, core
+Donate link: http://vcarvalho.com/donate/
+Requires at least: 3.4
+Tested up to: 3.5
+Stable tag: 0.4
+License: GPLv2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
-Remove comments functionality and related in your WordPress instance.
+Remove comments functionality and related in your Wordpress instance.
+
 
 
 == Description ==
@@ -88,3 +95,5 @@ Huge update! Completely rewritten! Everything is now handled consistently.
 New support for WordPress 3.4 and 3.5 using a combination of action hooks and CSS. 
 Optimal support for the new Twenty Twelve theme. 
 Provided 4 action hooks for developers.
+
+ 
