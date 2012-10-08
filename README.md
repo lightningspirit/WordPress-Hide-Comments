@@ -1,5 +1,5 @@
-WordPress-Hide-Comments
-=======================
+WordPress Hide Comments Plugin
+==============================
 
 Remove comments functionality and related in your WordPress instance.
 
@@ -15,7 +15,8 @@ Doesn't requires any configuration, just install and any trace of Comments will 
 
 NOTE: This does NOT play with the core, so you are able to update both plugins and WordPress without any afraid.
 
-= Provided Custom Hooks =
+Provided Custom Hooks
+---------------------
 
 This plugin provides 4 custom hooks you may play if you need more substance in your theme.
 
@@ -29,20 +30,22 @@ The use of these hooks are recommended, thus, if the plugin gets deactivated, th
 Do you want to translate it to your language? Just reply to the «Translations» topic in the forum.
 
 
-== Installation ==
+Installation
+------------
 
 1. Upload `hide-comments-feature` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. No more configuration required.
 
 
-== Frequently Asked Questions ==
+Frequently Asked Questions
+--------------------------
 
-= Will this affect my Wordpress Instalation? =
+- Will this affect my Wordpress Instalation? -
 
 No. This won't play with the core! In other words, the feature still exists there but it is hidden by the plugin.
 
-= And about my theme? Comments still there... =
+- And about my theme? Comments still there... -
 
 That's because your theme either is too old or it doesn't rely on the newest WordPress API. So you have to upgrade it, find a new one or, play with CSS to hide some HTML parts of the theme.
 Example of code to go into functions.php:
@@ -59,13 +62,9 @@ add_action( 'hide_comments_css', 'my_hide_comments_css' );
 
 Though, the main purpose of this plugin is to help web designers and developers creating WordPress sites they can ensure that their users will no longer see mentioned the word "Comment".
 
-== Screenshots ==
 
-1. There is no Comments menu link!
-2. The comments template disappeared (magically) from the Twenty Twelve theme.
-
-
-== Changelog ==
+Changelog
+---------
 
 = 0.4 =
 * Huge update! Everything is now handled consistently. It is expected to be 3.4 and 3.5 compatible.
@@ -81,7 +80,8 @@ Though, the main purpose of this plugin is to help web designers and developers 
 * Initial Release
 * Good support from FF3/4 and IE7
 
-== Upgrade Notice ==
+Upgrade Notice
+--------------
 
 = 0.4 =
 
