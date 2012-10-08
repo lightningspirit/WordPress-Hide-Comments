@@ -5,7 +5,7 @@ Remove comments functionality and related in your WordPress instance.
 
 
 Description
-===========
+-----------
 
 For those who do not need to have the Comments feature in WordPress (there are a lot of reasons), this plugin removes any trace of that existence in both wp-admin and front-end.
 Your theme must rely properly on the WordPress API for the front-end support. The tag <?php comments_template(); ?> must be present.
